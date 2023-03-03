@@ -1027,7 +1027,7 @@
     position: absolute;
     z-index: 1;
     font-size: 70px;
-    top: -115px;
+    top: -45px;
     left: 10%;
     background: linear-gradient(180deg, rgb(176, 69, 139) 55%, black 46%);
     background-clip: text;
@@ -1038,7 +1038,7 @@
     position: absolute;
     font-size: 14px;
     top: -14px;
-    left: 68%;
+    left: 70%;
   }
   .project1{
     position: absolute;
@@ -1257,7 +1257,7 @@
   .resume{
     align-items: center;
     justify-content: center;
-    left: 75%;
+    left: 74%;
     top: 54%;
     height: 100px;
     width: 100px;
