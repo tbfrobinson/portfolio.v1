@@ -1,6 +1,5 @@
 
 
-
 @media screen and (min-width: 360px) {
   .app1 {
     display: flex;
@@ -440,13 +439,13 @@
   .contact_div {
     position: absolute;
     flex-direction: column;
-    margin-top: 518vh;
+    margin-top: 440vh;
     left: 0;
-    z-index: 0;
+    z-index: 10;
     border-top: 9px solid rgb(35, 21, 2);
     background-color: rgb(72, 70, 134);
     width: 100%;
-    height: 110vh;
+    height: 800px;
   }
   .me{
     top: 100px;
@@ -542,7 +541,7 @@
   }
   .contact_div {
     margin-top: 582vh;
-    height: 110vh;
+    height: 500px;
   }
 }
 @media screen and (min-width: 390px) {
@@ -582,7 +581,7 @@
   }
   .contact_div {
     margin-top: 458vh;
-    height: 87vh;
+    height: 800px;
   }
 
 
@@ -635,7 +634,7 @@
   }
   .contact_div {
     margin-top: 428vh;
-    height: 84vh;
+    height: 800px;
   }
 }
 @media screen and (min-width: 500px) {
@@ -713,9 +712,8 @@
     margin-left: 14%;
   }
   .contact_div {
-    margin-top: 460vh;
+    margin-top: 560vh;
     width: 100%;
-    height: 90vh;
   }
   .github {
     position: absolute;
@@ -761,7 +759,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
+  .contact_div {
+    margin-top: 580vh;
+    height: 800px;
+  }
 }
 @media screen and (min-width: 820px) {
   .thinking_negative_1{
@@ -780,10 +781,7 @@
     top: 30%;
     font-size: 44px;
   }
-  .who_text {
-    font-size: 55px;
-    top: -9.8%
-  }
+
 }
 @media screen and (min-width: 912px) {
   .thinking_negative_1{
@@ -865,16 +863,20 @@
     color: rgb(176, 69, 139);
     font-size: 20px;
   }
-
-
-
+  
+  
+  
 }
 @media screen and (min-width: 1300px) {
   .about1 {
     left: 55%;
-}
+  }
+  .contact_div {
+    height: 800px;
+  }
 } 
 @media screen and (min-width: 1512px) {
+  
   .app1 {
     display: flex;
     flex-direction: column;
@@ -1362,10 +1364,10 @@
     display: block;
     margin-top: 382vh;
     left: 0;
-    z-index: 0;
+    z-index: 10;
     border-top: 9px solid rgb(35, 21, 2);
     width: 100%;
-    height: 80vh;
+    height: 700px;
   }
   .me{
     position: absolute;
