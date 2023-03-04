@@ -10,7 +10,7 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import project1 from '../../public/victory.png'
 import project2 from '../../public/frame.png'
 import project3 from '../../public/mcfacebook.png'
-import me from '../../public/personalphoto.jpeg'
+import me from '../../public/personalphoto.jpg'
 
 import styles from '@/styles/Home.module.css'
 
@@ -65,6 +65,7 @@ export default function Home() {
             <li className={styles.nav_item}><a href='#about'>about</a></li>
             <li className={styles.nav_item}><a href='#projects'>things done</a></li>
             <li className={styles.nav_item}><a href='#contact'>contact</a></li>
+            <li className={styles.nav_item}><Link href='/TheodoreRobinsonResume.pdf' target='_blank'>resume</Link></li>
           </ul>
         </nav>
         <div className={styles.thinking_box}>
@@ -84,11 +85,11 @@ export default function Home() {
           <p className={styles.about3}><span className={mplus2.className}>Music helped me develop my collaborative, creative, and problem solving skills.</span></p>
           <p className={styles.about3point5}><span className={mplus2.className}>(more buzz words to come)</span></p>
           <div className={styles.about_bullet3}></div>
-          <p className={styles.about4}><span className={mplus2.className}>My current goal is to conclude the copying period of my coding career and begin to understand abstract problems.</span></p>
+          <p className={styles.about4}><span className={mplus2.className}>My current goal is to conclude the copying period of my coding career and begin to approach abstract problems with creative solutions.</span></p>
           <p className={styles.about4point5}><span className={mplus2.className}>(see what i was saying)</span></p>
         </div>
         <div className={styles.projects_div}>
-          <p id='projects' className={styles.why}>L I K E, W H Y  D O  I C A R E</p>
+          <p id='projects' className={styles.why}>P R O J E C T S</p>
           <p className={styles.why1}>jeez okay okay i'll get to the point</p>
           <div>
             <div className={styles.project1}>
@@ -103,7 +104,7 @@ export default function Home() {
               <p className={styles.project1_text}>My first project, a janky canvas game inspired by <a href='https://kayin.itch.io/iwbtg' target='_blank' className={styles.iwb_link}>I wanna be the guy</a> and <a href='https://delicious-fruit.com/ratings/game_details.php?id=11890' target='_blank' className={styles.iwb_link}>I wanna be the boshy</a>.</p>
               <p className={styles.project1_text}> Guide Atlas in retrieving his stolen head. Original art and music.</p>
             </div>
-            <a href='https://github.com/tbfrobinson/Project_1' target='_blank' className={styles.project1_git}>Check out the messy code</a>
+            <a href='https://github.com/tbfrobinson/Project_1' target='_blank' className={styles.project1_git}>Github</a>
             <a href='https://tbfrobinson.github.io/Project_1/' target='_blank' className={styles.project1_link}>Lemme play</a>
           </div>
           <div>
