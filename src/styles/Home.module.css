@@ -121,7 +121,7 @@
     list-style: none;
     color: rgb(155, 155, 155);
     font-size: 20px;
-    margin: 0 30px;
+    margin: 0 7px;
     padding: 10px;
     border-radius: 10px;
   }
@@ -136,13 +136,13 @@
   
   .thinking_negative_1{
     color: rgba(0, 0, 0, .07);
-    margin-top: 54px;
+    margin-top: 48px;
     left: 23px;
     position: absolute;
     font-size: 31px;
   }
   .thinking0{
-    margin-top: 57px;
+    margin-top: 40px;
     color: rgba(0, 0, 0, .1);
     position: absolute;
     font-size: 31px;
@@ -152,12 +152,12 @@
   .thinking1{
     color: rgba(0, 0, 0, .2);
     position: absolute;    
-    margin-top: 60px;
+    margin-top: 38px;
     left: 27px;
     font-size: 32px;
   }
   .thinking2{
-    margin-top: 63px;
+    margin-top: 36px;
     left: 30px;
     position: absolute;
     font-size: 34px;
@@ -178,13 +178,13 @@
     animation: border-decoration 2s infinite;
   }
   .about_div {
-    margin-top: 74vh;
+    margin-top: 550px;
     position: absolute;
     text-align: center;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    height: 113vh;
+    height: 900px;
     left: 0;
     background-color: rgb(5, 0, 0);
     width: 100%;
@@ -193,7 +193,7 @@
   .who_text{
     font-size: 38px;
     position: absolute;
-    top: -6.5%;
+    top: -6.2%;
     transform: rotate(14deg);
     background: linear-gradient(346deg, rgb(176, 69, 139) 48%, black 41%);
     background-clip: text;
@@ -250,21 +250,21 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-top: 175vh;
+    margin-top: 1300px;
     left: 0;
     text-align: center;
     z-index: 1;
     background-color: rgb(57, 59, 2);
     width: 100%;
-    height: 190vh;
+    height: 2550px;
   }
   .why {
     z-index: 1;
     position: absolute;
-    font-size: 28.7px;
+    font-size: 40.7px;
     margin: 0 auto;
-    margin-left: 2px;
-    top: -20px;
+    margin-left: 50px;
+    top: -27px;
     background: linear-gradient(180deg, rgb(176, 69, 139) 55%, black 46%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -296,7 +296,7 @@
   }
   .project1_desc {
     display: flex;
-    margin-top: 25px;
+    margin-top: 60px;
     flex-direction: column;
   }
   .project1_text{
@@ -439,7 +439,7 @@
   .contact_div {
     position: absolute;
     flex-direction: column;
-    margin-top: 440vh;
+    margin-top: 3850px;
     left: 0;
     z-index: 10;
     border-top: 9px solid rgb(35, 21, 2);
@@ -527,21 +527,19 @@
   }
 
   .about_div {
-    margin-top: 87vh;
+    margin-top: 550px;
   }
   .who_text{
     font-size: 39.8px;
-  }
-  .why {
-    font-size: 30px;
+    top: -6.4%;
   }
   .projects_div {
-    margin-top: 198vh;
-    height: 190vh;
+    margin-top: 1300px;
+    height: 3000px;
   }
   .contact_div {
-    margin-top: 582vh;
-    height: 500px;
+    margin-top: 3850px;
+    height: 750px;
   }
 }
 @media screen and (min-width: 390px) {
@@ -566,21 +564,16 @@
     font-size: 40px;
   }
   .about_div {
-    margin-top: 71vh;
-    height: 90vh;
+    margin-top: 570px;
+    height: 1000px;
   }
   .who_text{
-    top: -7.6%;
+    top: -5.8%;
   }
   .projects_div {
-    margin-top: 158vh;
-  }
-  .why {
-    font-size: 30px;
-    margin-left: 10px;
+    margin-top: 1330px;
   }
   .contact_div {
-    margin-top: 458vh;
     height: 800px;
   }
 
@@ -611,30 +604,16 @@
     left: 22%;
     top: -4.45%;
   }
-  .about_div {
-    margin-top: 70vh;
-    height: 76vh;
-  }
   .who_text{
     font-size: 39.8px;
     left: 5%;
-    top: -8.3%;
+    top: -5.7%;
   }
   .about_div {
     width: 100vw;
   }
   .projects_div {
-    margin-top: 145vh;
     width: 100%;
-    height: 147vh;
-  }
-  .why {
-    font-size: 30px;
-    margin-left: 20px;
-  }
-  .contact_div {
-    margin-top: 428vh;
-    height: 800px;
   }
 }
 @media screen and (min-width: 500px) {
@@ -662,13 +641,13 @@
   }
   .thinking_negative_1{
     color: rgba(0, 0, 0, .07);
-    margin-top: 80px;
+    margin-top: 153px;
     left: 23px;
     position: absolute;
     font-size: 31px;
   }
   .thinking0{
-    margin-top: 84px;
+    margin-top: 155px;
     color: rgba(0, 0, 0, .1);
     position: absolute;
     font-size: 31px;
@@ -678,41 +657,39 @@
   .thinking1{
     color: rgba(0, 0, 0, .2);
     position: absolute;    
-    margin-top: 87px;
+    margin-top: 157px;
     left: 27px;
     font-size: 32px;
   }
   .thinking2{
-    margin-top: 90px;
+    margin-top: 160px;
     left: 30px;
     position: absolute;
     font-size: 34px;
   }
   .about_div{
-    margin-top: 65vh;
-    height: 180vh;
+    margin-top: 520px;
+    height: 1000px;
   }
   .who_text {
     font-size: 35px;
     left: 22%;
-    top: -3.4%;
+    top: -5.1%;
   }
   .project1_img {
     width: 500px;
   }
   .projects_div {
-    margin-top: 150vh;
+    margin-top: 1220px;
     text-align: center;
-    height: 190vh;
+    height: 2600px;
   }
   .why {
-    position: absolute;
-    font-size: 28.7px;
     margin: 0 auto;
     margin-left: 14%;
   }
   .contact_div {
-    margin-top: 560vh;
+    margin-top: 3800px;
     width: 100%;
   }
   .github {
@@ -737,8 +714,8 @@
     margin-left: 10%;
   }
   .about_div {
-    margin-top: 68vh;
-    height: 113vh;
+    margin-top: 550px;
+    height: 800px;
   }
   .nav_item {
     font-size: 20px;
@@ -746,7 +723,7 @@
   }
   .who_text{
     font-size: 48px;
-    top: -7.4%;
+    top: -8.8%;
   }
   .why {
     position: absolute;
@@ -760,7 +737,7 @@
     -webkit-text-fill-color: transparent;
   }
   .contact_div {
-    margin-top: 580vh;
+    margin-top: 3800px;
     height: 800px;
   }
 }
@@ -801,7 +778,11 @@
     font-size: 58px;
   }
   .about_div{
-    margin-top: 84vh;
+    margin-top: 660px;
+    padding-top: 90px
+  }
+  .who_text{
+    top: -7.9%;
   }
   .about {
     color: rgb(176, 69, 139);
@@ -810,8 +791,13 @@
     font-size: 20px;
     animation: fadeInNOut 5s infinite;
     animation-timing-function: cubic-bezier(.43,2.76,.49,-1.94);
-    top: 40px;
+    top: -40px;
     left: 10%;
+  }
+  .about1{
+    position: absolute;
+    left: 90px;
+    top: 60px;
   }
  
 
@@ -839,7 +825,7 @@
   }
   .about_div{
     display: block;
-    margin-top: 77vh;
+    padding-top: 0;
   }
   .about {
     position: absolute;
@@ -863,7 +849,9 @@
     color: rgb(176, 69, 139);
     font-size: 20px;
   }
-  
+  .projects_div {
+    margin-top: 1150px;
+  }
   
   
 }
@@ -1048,12 +1036,12 @@
     animation: border-decoration 2s infinite;
   }
   .about_div {
-    margin-top: 77vh;
+    margin-top: 670px;
     position: absolute;
     text-align: start;
     display: block;
     border-radius: 10px;
-    height: 86vh;
+    height: 800px;
     left: 0;
     z-index: 0;
     background-color: rgb(5, 0, 0);
@@ -1063,7 +1051,7 @@
   .who_text{
     position: absolute;
     font-size: 67px;
-    top: -13.8%;
+    top: -12.3%;
     left: 35%;
     transform: rotate(14deg);
     background: linear-gradient(346deg, rgb(176, 69, 139) 48%, black 41%);
@@ -1152,12 +1140,12 @@
   .projects_div {
     position: absolute;
     display: block;
-    margin-top: 162vh;
+    margin-top: 1360px;
     left: 0;
     z-index: 1;
     background-color: rgb(57, 59, 2);
     width: 100%;
-    height: 220vh;
+    height: 1830px;
   }
   .why {
     position: absolute;
@@ -1362,7 +1350,7 @@
   .contact_div {
     position: absolute;
     display: block;
-    margin-top: 382vh;
+    margin-top: 3190px;
     left: 0;
     z-index: 10;
     border-top: 9px solid rgb(35, 21, 2);
