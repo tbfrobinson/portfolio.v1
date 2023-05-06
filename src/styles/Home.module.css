@@ -805,7 +805,7 @@
 @media screen and (min-width: 1024px) {
   .thinking_negative_1{
     font-size: 55px;
-    top: 30%;
+    top: 0%;
   }
   .thinking0{
     font-size: 56px;
@@ -1427,18 +1427,18 @@
 @media screen and (min-width: 1425px) {
   .thinking_negative_1{
     font-size: 49px;
-    top: 40%;
+    top: 30%;
   }
   .thinking0{
     font-size: 50px;
-    top: 42%;
+    top: 32%;
   }
   .thinking1{
     font-size: 52px;
-    top: 43%;
+    top: 33%;
   }
   .thinking2{
-    top: 44%;
+    top: 34%;
     font-size: 54px;
   }
   .about2point5 {
